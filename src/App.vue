@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="logo" class="logo" src="https://miro.medium.com/max/1125/1*wotzQboYWAfaj-7bvGNIkQ.png">
     <Datos />
   </div>
 </template>
@@ -24,5 +24,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.logo{
+  width: 30rem;
+  height: 50%;
 }
 </style>
